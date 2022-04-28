@@ -1,21 +1,23 @@
 {
-  "name": "1_refactoring",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "jest",
-    "linter": "eslint",
-    "linter-fix": "eslint --fix"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jest": "^28.0.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.14.0"
-  }
+	"name": "1_refactoring",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "jest",
+		"linter": "eslint",
+		"linter-fix": "eslint --fix",
+		"server": "node lib/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.0",
+		"jest": "^28.0.1"
+	},
+	"devDependencies": {
+		"eslint": "^8.14.0"
+	}
 }

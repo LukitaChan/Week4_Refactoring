@@ -1,7 +1,5 @@
-const fs = require('fs');
 const ExplorerService = require('./lib/services/ExplorerService');
 const FizzbuzzService = require('./lib/services/FizzbuzzService');
-const ExplorerController = require('./lib/controllers/ExplorerController');
 const Reader = require('./lib/utils/Reader');
 
 const explorers = Reader.readJsonFile('explorers.json');
