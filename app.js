@@ -6,17 +6,20 @@ const Reader = require('./lib/utils/Reader');
 
 const explorers = Reader.readJsonFile('explorers.json');
 //console.log(explorers);
-// (1) esto regresa la lista de explorers del archivo.
+// (1.1) esto regresa la lista de explorers del archivo.
 
 //ExplorerService.js
 const filtradoPorMision = ExplorerService.filterByMission(explorers, 'node');
 //console.log(filtradoPorMision);
+//(1.2) esto regresa la lista de explorers y ademas los filtra por el "mission"="node".
 
 const cantidadExplorersPorMision = ExplorerService.getAmountOfExplorersByMission(explorers, 'node');
 //console.log(cantidadExplorersPorMision);
+// (2) Obtener la cantidad de explorers que están en node.
 
 const obtenerUsernamesPorMision = ExplorerService.getExplorersUsernamesByMission(explorers, 'node');
 //console.log(obtenerUsernamesPorMision);
+// (3)  Obtener la lista de usuarios de github de los explorers que están en node.
 
 //FizzbuzzService.js
 const explorer1 = { name: 'Explorer1', score: 1 };
