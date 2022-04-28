@@ -8,14 +8,16 @@
 		"test": "jest",
 		"linter": "eslint",
 		"linter-fix": "eslint --fix",
-		"server": "node lib/server.js"
+		"server": "node lib/server.js",
+		"nodemon": "nodemon lib/server.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"express": "^4.18.0",
-		"jest": "^28.0.1"
+		"jest": "^28.0.1",
+		"nodemon": "^2.0.15"
 	},
 	"devDependencies": {
 		"eslint": "^8.14.0"
