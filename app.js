@@ -39,3 +39,8 @@ const explorer15 = { name: 'Explorer15', score: 15 };
 const val15 = FizzbuzzService.applyValidationInExplorer(explorer15);
 //console.log(val15);
 // {name: "Explorer15", score: 15, trick: "FIZZBUZZ"}
+
+//4. Contribución Open Source
+const filtradoPorStack = ExplorerService.filterByStack(explorers, 'javascript');
+//console.log(filtradoPorStack);
+//(1.2) esto regresa la lista de explorers y ademas los filtra por el "stack"="javascript".
