@@ -9,14 +9,17 @@
 		"linter": "eslint",
 		"linter-fix": "eslint --fix",
 		"server": "node lib/server.js",
-		"nodemon": "nodemon lib/server.js"
+		"nodemon": "nodemon lib/server.js",
+		"bot": "node ./lib/bot.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"dotenv": "^16.0.0",
 		"express": "^4.18.0",
 		"jest": "^28.0.1",
+		"node-telegram-bot-api": "^0.57.0",
 		"nodemon": "^2.0.15"
 	},
 	"devDependencies": {
